@@ -14,24 +14,41 @@
    <top>
       <AnchorPane prefHeight="136.0" prefWidth="1000.0" BorderPane.alignment="CENTER">
          <children>
-            <Text layoutX="214.0" layoutY="86.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Ingresar valores:">
+            <Text layoutX="478.0" layoutY="80.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Ingresar valores:">
                <font>
                   <Font name="Montserrat Light" size="24.0" />
                </font>
             </Text>
-            <Text layoutX="473.0" layoutY="55.0" strokeType="OUTSIDE" strokeWidth="0.0" text="X:">
+            <Text layoutX="737.0" layoutY="49.0" strokeType="OUTSIDE" strokeWidth="0.0" text="X:">
                <font>
                   <Font name="Montserrat Light" size="24.0" />
                </font>
             </Text>
-            <Text layoutX="473.0" layoutY="109.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Y:">
+            <Text layoutX="737.0" layoutY="103.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Y:">
                <font>
                   <Font name="Montserrat Light" size="24.0" />
                </font>
             </Text>
-            <TextField fx:id="txtXValue" layoutX="527.0" layoutY="34.0" prefHeight="24.0" prefWidth="62.0" promptText="100..." />
-            <TextField fx:id="txtYValue" layoutX="527.0" layoutY="88.0" prefHeight="24.0" prefWidth="62.0" promptText="200..." />
-            <Button fx:id="btnSetValues" layoutX="617.0" layoutY="46.0" mnemonicParsing="false" onAction="#setValues" prefHeight="63.0" prefWidth="64.0" text="Button" />
+            <TextField fx:id="txtXValue" layoutX="791.0" layoutY="28.0" prefHeight="24.0" prefWidth="62.0" promptText="100..." />
+            <TextField fx:id="txtYValue" layoutX="791.0" layoutY="82.0" prefHeight="24.0" prefWidth="62.0" promptText="200..." />
+            <Button fx:id="btnSetValues" layoutX="881.0" layoutY="40.0" mnemonicParsing="false" onAction="#setValues" prefHeight="63.0" prefWidth="78.0" text="Agregar" />
+            <Text layoutX="60.0" layoutY="80.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Valor Máximo:">
+               <font>
+                  <Font name="Montserrat Light" size="24.0" />
+               </font>
+            </Text>
+            <Text layoutX="318.0" layoutY="49.0" strokeType="OUTSIDE" strokeWidth="0.0" text="X:">
+               <font>
+                  <Font name="Montserrat Light" size="24.0" />
+               </font>
+            </Text>
+            <Text layoutX="318.0" layoutY="103.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Y:">
+               <font>
+                  <Font name="Montserrat Light" size="24.0" />
+               </font>
+            </Text>
+            <TextField fx:id="txtXMax" layoutX="372.0" layoutY="28.0" prefHeight="24.0" prefWidth="62.0" promptText="100..." />
+            <TextField fx:id="txtYMax" layoutX="372.0" layoutY="82.0" prefHeight="24.0" prefWidth="62.0" promptText="200..." />
          </children>
       </AnchorPane>
    </top>
